@@ -5,25 +5,29 @@
         </title>
         
         
-
+        <link rel="stylesheet" href="style.css" type="text/css">
         <link rel="icon" type="image/x-icon" href="images/favicon.ico">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>   
 
         <style>
-          body{
-            background-color:rgba(0, 0, 0, 0.863);
+         
+         body{
+          background-color: #000000d3;
+         }
+          .carousel-caption{
+            font-size: 22px;
+            color:blue;
           }
-            .card{
-                margin-left:20%;
-                align-items: center;
-                justify-content:center;
-                
-            }
+            
+           
             .card:hover
             {
                 transform: scale(1.1, 1.1);
-                background-color: rgba(0, 0, 0, 0.863);
+                background: rgba(0, 0, 0, 0.5);
+                margin-top: 10px;
+                margin-bottom: 10px;
+                color:white;
                 
             }
             #anime{
@@ -48,6 +52,25 @@
                 font-size:22px;
                 text-decoration:none;
             }
+           .new{
+             background-attachment: fixed;
+           }
+
+           .bbb{
+             
+             align-items: center;
+             justify-content:center;
+             
+            
+           }
+           .card{
+            max-width: 500px;
+             margin: auto;
+             
+             background-color: rgb(243, 234, 250);
+           }
+
+           
         </style>
     </head>
     <body>
@@ -58,18 +81,187 @@
             <p>Have a wonderful start all throught out a year</p>
         </div>
 
+        <div class="new">
+          <img src="images/neew.jpg" class="w-100"
+          alt="">
+        </div>
+
+          <!-- Carousel -->
+<!--<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="7"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="8"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="9"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="10"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="11"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="12"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="13"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="14"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="15"></button>
+
+  </div>
+
+  
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/777.jpg" alt="Los Angeles" class="d-block w-100 h-20">
+      <div class="carousel-caption">
+        <h3>777 Charlie</h3>
+        <p>Director
+          Kiranraj K</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/atrangi re.jpg" alt="Chicago" class="d-block w-100 hh ">
+      <div class="carousel-caption">
+        <h3>Atrangi Re</h3>
+        <p>Director
+          Aanand L. Rai</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/drish.jpg" alt="New York" class="d-block w-100 hh">
+      <div class="carousel-caption">
+        <h3>Drishyam 2</h3>
+        <p>Director
+          Jeethu Joseph</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/judas.jpg" alt="New York" class="d-block w-100 hh">
+      <!--<div class="carousel-caption">
+        <h3>Judas and the Black Messiah</h3>
+        <p>Director
+          Shaka King</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/karnan.jpeg" alt="New York" class="d-block w-100 hh">
+      <div class="carousel-caption">
+        <h3>Karnan</h3>
+        <p> Director
+          Mari Selvaraj</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/lacasa.jpg" alt="New York" class="d-block w-100 hh">
+      <div class="carousel-caption">
+        <h3>Money Heist</h3>
+        <p>Creator
+          Álex Pina</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/luca.jpg" alt="New York" class="d-block w-100 hh">
+      <div class="carousel-caption">
+        <h3>Luca</h3>
+        <p>Director
+          Enrico Casarosa</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/marakkar.jpg" alt="New York" class="d-block w-100 hh">
+       <!--<div class="carousel-caption">
+       <h3>Marakkar: Lion of the Arabian Sea</h3>
+        <p> Director
+          Priyadarshan</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/master.jpg" alt="New York" class="d-block w-100 hh">
+      <!--<div class="carousel-caption">
+        <h3>Master</h3>
+        <p>Director
+          Lokesh Kanagaraj</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/meenakshi.jpg" alt="New York" class="d-block w-100 hh">
+       <!--<div class="carousel-caption">
+       <h3>Meenakshi Sundareshwar</h3>
+        <p> Director
+          Vivek Soni</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/raya.jpg" alt="New York" class="d-block w-100 hh">
+      <!--<div class="carousel-caption">
+        <h3>Raya and the Last Dragon</h3>
+        <p>Directors
+          Don HallCarlos López EstradaPaul Briggs</p>
+      </div>-
+    </div>
+    <div class="carousel-item">
+      <img src="images/the priest.jpg" alt="New York" class="d-block w-100 hh">
+      <!--<div class="carousel-caption">
+        <h3>The Priest</h3>
+        <p>Director
+          Jofin T. Chacko</p>
+      </div>--
+    
+    </div>
+
+    <div class="carousel-item">
+      <img src="images/venom.jpg" alt="New York" class="d-block w-100 hh">
+     <!--  <div class="carousel-caption">
+       <h3>Venom: Let There Be Carnage</h3>
+        <p>Director
+          Andy Serkis</p>
+      </div>--
+    </div>
+    <div class="carousel-item">
+      <img src="images/wild.jpeg" alt="New York" class="d-block w-100 hh">
+      <div class="carousel-caption">
+        <h3>Wild Dogs</h3>
+        <p>Director
+          Ahishor Solomon</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/yuva.jpg" alt="New York" class="d-block w-100 hh">
+      <div class="carousel-caption">
+        <h3>Yuvarathnaa</h3>
+        <p>Director
+          Santhosh Ananddram</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Left and right controls/icons --
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>-->
+
+
+
+
+
         <div class="container">
         <div class="row">
-            <div class="col-md-7">
-                <iframe  width="500"height="315" src="https://www.youtube.com/embed/ip9T6MQvvKg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="col-md-12">
+              <audio src="audio/Ilamai-Itho.mp3" autoplay loop></audio>
             </div>
-            <div class="col-md-5  mt-1 p-2">
-                <p style="text-align:justify">
+            <!--<div class="col-md-5  mt-1 p-2">
+                <p style="text-align:justify pp">
                     As 2021 is coming to an end, everyone is getting very excited to enter into the new year. 2022 will be the year where everyone can start afresh. For the past two years, people have taken to their homes to abide by the social distancing rule due to the coronavirus pandemic. We have now been considering celebrating this occasion within the comfort of their homes. The new year marks the beginning of new promises, resolutions and life decisions. 
                 </p>
-            </div>
+            </div>-->
         </div>
     </div>
+    
         
         <div class="container text-center bg-warning p-4 text-dark ">
             <h1>
@@ -78,12 +270,13 @@
             <p>Have a wonderful start all throught out a year</p>
         </div>
 
-        <div class="card mb-3 bg-light mt-4 " style="max-width: 600px;">
-            <div class="row g-0">
-              <div class="col-md-4">
+        <div class="container-fluid bbb align-items-center justify-content-center">
+        <div class="card  mb-3  mt-4 " style="max-width: 600px;">
+            <div class="row g-0 ">
+              <div class="col-md-4 col-sm-3">
                 <img src="images/777.jpg" class="img-fluid rounded-start " alt="...">
               </div>
-              <div class="col-md-8">
+              <div class="col-md-8 col-sm-8">
                 <div class="card-body">
                   <h5 class="card-title">777 Charlie</h5>
                   <p class="card-text">The protagonist is stuck in a rut with his negative and lonely lifestyle and spends each day in the comfort of his loneliness. A pup named Charlie who enters his life and gives him a new perspective towards it.</p>
@@ -95,12 +288,12 @@
             </div>
           </div>
 
-        <div class="card mb-3 bg-light" style="max-width: 600px;">
+        <div class="card mb-3 " style="max-width: 600px;">
             <div class="row g-0">
-              <div class="col-md-4">
+              <div class="col-md-4 col-sm-3 ">
                 <img src="images/lacasa.jpg" class="img-fluid rounded-start" alt="...">
               </div>
-              <div class="col-md-8">
+              <div class="col-md-8 col-sm-8">
                 <div class="card-body">
                   <h5 class="card-title">Money Heist</h5>
                   <p class="card-text">An unusual group of robbers attempt to carry out the most perfect robbery in Spanish history - stealing 2.4 billion euros from the Royal Mint of Spain.</p>
@@ -111,12 +304,12 @@
             </div>
           </div>
 
-          <div class="card mb-3 bg-light" style="max-width: 600px;">
+          <div class="card mb-3 " style="max-width: 600px;">
             <div class="row g-0">
-              <div class="col-md-4">
+              <div class="col-md-4 col-sm-3">
                 <img src="images/luca.jpg" class="img-fluid rounded-start" alt="...">
               </div>
-              <div class="col-md-8">
+              <div class="col-md-8 col-sm-8">
                 <div class="card-body">
                   <h5 class="card-title">Luca</h5>
                   <p class="card-text"> the Italian Riviera, an unlikely but strong friendship grows between a human being and a sea monster disguised as a human.
@@ -129,12 +322,12 @@
             </div>
           </div>
 
-          <div class="card mb-3 bg-light" style="max-width: 600px;">
+          <div class="card mb-3 " style="max-width: 600px;">
             <div class="row g-0">
-              <div class="col-md-4">
+              <div class="col-md-4 col-sm-3">
                 <img src="images/drish.jpg" class="img-fluid rounded-start" alt="...">
               </div>
-              <div class="col-md-8">
+              <div class="col-md-8 col-sm-8">
                 <div class="card-body">
                   <h5 class="card-title">Drishyam 2 </h5>
                   <p class="card-text">A gripping tale of an investigation and a family which is threatened by it. Will Georgekutty be able to protect his family this time?
@@ -146,12 +339,12 @@
             </div>
           </div>
 
-          <div class="card mb-3 bg-light" style="max-width: 600px;">
+          <div class="card mb-3 " style="max-width: 600px;">
             <div class="row g-0">
-              <div class="col-md-4">
+              <div class="col-md-4 col-sm-3">
                 <img src="images/judas.jpg" class="img-fluid rounded-start" alt="...">
               </div>
-              <div class="col-md-8">
+              <div class="col-md-8 col-sm-8">
                 <div class="card-body">
                   <h5 class="card-title">Judas and the Black Messiah</h5>
                   <p class="card-text">Offered a plea deal by the FBI, William O'Neal infiltrates the Illinois chapter of the Black Panther Party to gather intelligence on Chairman Fred Hampton.
@@ -163,12 +356,12 @@
             </div>
           </div>
 
-          <div class="card mb-3 bg-light" style="max-width: 600px;">
+          <div class="card mb-3 " style="max-width: 600px;">
             <div class="row g-0">
-              <div class="col-md-4">
+              <div class="col-md-4 col-sm-3">
                 <img src="images/karnan.jpeg" class="img-fluid rounded-start" alt="...">
               </div>
-              <div class="col-md-8">
+              <div class="col-md-8 col-sm-8">
                 <div class="card-body">
                   <h5 class="card-title">Karnan</h5>
                   <p class="card-text">Karnan, a fearless village youth, must fight for the rights of the conservative people of his village, due to the torture given by a police officer.
@@ -180,12 +373,12 @@
             </div>
           </div>
 
-          <div class="card mb-3 bg-light" style="max-width: 600px;">
+          <div class="card mb-3 " style="max-width: 600px;">
             <div class="row g-0">
-              <div class="col-md-4">
+              <div class="col-md-4 col-sm-3">
                 <img src="images/marakkar.jpg" class="img-fluid rounded-start" alt="...">
               </div>
-              <div class="col-md-8">
+              <div class="col-md-8 col-sm-8">
                 <div class="card-body">
                   <h5 class="card-title">Marakkar: Lion of the Arabian Sea</h5>
                   <p class="card-text">The story of legendary Kunjali Marakkar IV and his epic warfare against the Portuguese.
@@ -197,12 +390,12 @@
             </div>
           </div>
 
-          <div class="card mb-3 bg-light" style="max-width: 600px;">
+          <div class="card mb-3 " style="max-width: 600px;">
             <div class="row g-0">
-              <div class="col-md-4">
+              <div class="col-md-4 col-sm-3">
                 <img src="images/master.jpg" class="img-fluid rounded-start" alt="...">
               </div>
-              <div class="col-md-8">
+              <div class="col-md-8 col-sm-8">
                 <div class="card-body">
                   <h5 class="card-title">Master</h5>
                   <p class="card-text">An alcoholic professor is sent to a juvenile school, where he clashes with a gangster who uses the school children for criminal activities.
@@ -214,12 +407,12 @@
             </div>
           </div>
 
-          <div class="card mb-3 bg-light" style="max-width: 600px;">
+          <div class="card mb-3 " style="max-width: 600px;">
             <div class="row g-0">
-              <div class="col-md-4">
+              <div class="col-md-4 col-sm-3">
                 <img src="images/meenakshi.jpg" class="img-fluid rounded-start" alt="...">
               </div>
-              <div class="col-md-8">
+              <div class="col-md-8 col-sm-8">
                 <div class="card-body">
                   <h5 class="card-title">Meenakshi Sundareshwar</h5>
                   <p class="card-text">Forced to live apart due to a unique job prospect, two newlyweds face the hassles, hiccups - and hilarity - that arise from their long distance marriage.
@@ -231,12 +424,12 @@
             </div>
           </div>
 
-          <div class="card mb-3 bg-light" style="max-width: 600px;">
+          <div class="card mb-3 " style="max-width: 600px;">
             <div class="row g-0">
-              <div class="col-md-4">
+              <div class="col-md-4 col-sm-3">
                 <img src="images/raya.jpg" class="img-fluid rounded-start" alt="...">
               </div>
-              <div class="col-md-8">
+              <div class="col-md-8 col-sm-8">
                 <div class="card-body">
                   <h5 class="card-title">Raya and the Last Dragon</h5>
                   <p class="card-text">In a realm known as Kumandra, a re-imagined Earth inhabited by an ancient civilization, a warrior named Raya is determined to find the last dragon.
@@ -248,12 +441,12 @@
             </div>
           </div>
 
-          <div class="card mb-3 bg-light" style="max-width: 600px;">
+          <div class="card mb-3 " style="max-width: 600px;">
             <div class="row g-0">
-              <div class="col-md-4">
+              <div class="col-md-4 col-sm-3">
                 <img src="images/the priest.jpg" class="img-fluid rounded-start" alt="...">
               </div>
-              <div class="col-md-8">
+              <div class="col-md-8 col-sm-8">
                 <div class="card-body">
                   <h5 class="card-title">The Priest</h5>
                   <p class="card-text">A priest and a police officer are trying to solve a set of mysterious suicides. As their investigation closes in, they discover another crime with even farther-reaching consequences.
@@ -265,12 +458,12 @@
             </div>
           </div>
 
-          <div class="card mb-3 bg-light" style="max-width: 600px;">
+          <div class="card mb-3 " style="max-width: 600px;">
             <div class="row g-0">
-              <div class="col-md-4">
+              <div class="col-md-4 col-sm-3">
                 <img src="images/venom.jpg" class="img-fluid rounded-start" alt="...">
               </div>
-              <div class="col-md-8">
+              <div class="col-md-8 col-sm-8">
                 <div class="card-body">
                   <h5 class="card-title">Venom: Let There Be Carnage</h5>
                   <p class="card-text">Eddie Brock attempts to reignite his career by interviewing serial killer Cletus Kasady, who becomes the host of the symbiote Carnage and escapes prison after a failed execution.
@@ -282,12 +475,12 @@
             </div>
           </div>
 
-          <div class="card mb-3 bg-light" style="max-width: 600px;">
+          <div class="card mb-3 " style="max-width: 600px;">
             <div class="row g-0">
-              <div class="col-md-4">
+              <div class="col-md-4 col-sm-3">
                 <img src="images/wild.jpeg" class="img-fluid rounded-start" alt="...">
               </div>
-              <div class="col-md-8">
+              <div class="col-md-8 col-sm-8">
                 <div class="card-body">
                   <h5 class="card-title">Wild Dog</h5>
                   <p class="card-text">A brash but brilliant Indian intelligence agent leads a covert operation to nab the mastermind behind a series of attacks threatening national security.
@@ -299,12 +492,12 @@
             </div>
           </div>
 
-          <div class="card mb-3 bg-light" style="max-width: 600px;">
+          <div class="card mb-3 " style="max-width: 600px;">
             <div class="row g-0">
-              <div class="col-md-4">
+              <div class="col-md-4 col-sm-3">
                 <img src="images/yuva.jpg" class="img-fluid rounded-start" alt="...">
               </div>
-              <div class="col-md-8">
+              <div class="col-md-8 col-sm-8">
                 <div class="card-body">
                   <h5 class="card-title">Yuvarathnaa</h5>
                   <p class="card-text">A reputed college that is now on the verge of closing due to the privatization of the education system and political reasons. The college Principal fights against privatization and the protagonist supports his vision.
@@ -316,12 +509,12 @@
             </div>
           </div>
 
-          <div class="card mb-3 bg-light" style="max-width: 600px;">
+          <div class="card mb-3 " style="max-width: 600px;">
             <div class="row g-0">
-              <div class="col-md-4">
+              <div class="col-md-4 col-sm-3">
                 <img src="images/atrangi re.jpg" class="img-fluid rounded-start" alt="...">
               </div>
-              <div class="col-md-8">
+              <div class="col-md-8 col-sm-8">
                 <div class="card-body">
                   <h5 class="card-title">Atrangi Re</h5>
                   <p class="card-text">A Tamil boy meets a girl from Bihar, what follows is a love story for the ages. A non-linear narrative of two romances running in parallel from different timelines.
@@ -332,6 +525,8 @@
               </div>
             </div>
           </div>
+
+        </div>
 
 
 
@@ -353,10 +548,11 @@
           
           </div>
         </div>
+
           
          <!-- <div class="card mb-3" style="max-width: 600px;">
             <div class="row g-0">
-              <div class="col-md-4">
+              <div class="col-md-4 col-sm-3">
                 <img src="images/Raazi_-_Poster.jpg" class="img-fluid rounded-start" alt="...">
               </div>
               <div class="col-md-8">
@@ -371,7 +567,7 @@
 
           <div class="card mb-3" style="max-width: 600px;">
             <div class="row g-0">
-              <div class="col-md-4">
+              <div class="col-md-4 col-sm-3">
                 <img src="..." class="img-fluid rounded-start" alt="...">
               </div>
               <div class="col-md-8">
@@ -386,7 +582,7 @@
 
           <div class="card mb-3" style="max-width: 600px;">
             <div class="row g-0">
-              <div class="col-md-4">
+              <div class="col-md-4 col-sm-3">
                 <img src="..." class="img-fluid rounded-start" alt="...">
               </div>
               <div class="col-md-8">
@@ -401,7 +597,7 @@
 
           <div class="card mb-3" style="max-width: 600px;">
             <div class="row g-0">
-              <div class="col-md-4">
+              <div class="col-md-4 col-sm-3">
                 <img src="..." class="img-fluid rounded-start" alt="...">
               </div>
               <div class="col-md-8">
@@ -416,7 +612,7 @@
 
           <div class="card mb-3" style="max-width: 600px;">
             <div class="row g-0">
-              <div class="col-md-4">
+              <div class="col-md-4 col-sm-3">
                 <img src="..." class="img-fluid rounded-start" alt="...">
               </div>
               <div class="col-md-8">
